@@ -1,2 +1,110 @@
-HELLO , THIS IS MANTHAN...
-AND CHECKING MY DOMAIN
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manthan Darji | Connect</title>
+    <style>
+        :root {
+            --bg-color: #0f0f0f;
+            --card-bg: #1a1a1a;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent: #00ff88; /* Matrix Green/Modern Neon */
+            --hover-bg: #252525;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* Profile Section */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--accent);
+            object-fit: cover;
+            margin-bottom: 20px;
+            padding: 5px;
+            background-color: var(--card-bg);
+        }
+
+        h1 { margin: 10px 0 5px; font-size: 2rem; }
+        p.bio { color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 30px; }
+
+        /* Links Section */
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--card-bg);
+            color: var(--text-primary);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s;
+            border: 1px solid #333;
+            font-weight: 600;
+        }
+
+        .link-card:hover {
+            transform: translateY(-3px);
+            background-color: var(--hover-bg);
+            border-color: var(--accent);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Profile Photo" class="profile-img">
+        
+        <h1>Manthan Darji</h1>
+        <p class="bio">Google Student Ambessdor 25’ | Tech Geek | Learner | CSE’28</p>
+
+        <a href="https://github.com/Manthan-Darji" target="_blank" class="link-card">
+            GitHub
+        </a>
+        
+        <a href="https://linkedin.com/in/Manthan-Darji" target="_blank" class="link-card">
+            LinkedIn
+        </a>
+
+        <a href="https://instagram.com/manthan_.darji" target="_blank" class="link-card">
+            Instagram
+        </a>
+
+        <a href="mailto:solankimanthan0143@gmail.com" class="link-card">
+            Email Me
+        </a>
+        
+        <div class="footer">
+            <p>&copy;Year 2025 | Created By Manthan. </p>
+        </div>
+    </div>
+
+</body>
+</html>
